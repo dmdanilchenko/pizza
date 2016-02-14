@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pizza constructor</title>
+		<meta charset="utf-8">
+		<link rel=stylesheet type="text/css" title="view" href="styles.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>	
+	</head>
+	<body>
+		<div id='wraper'>
+			<h2>Пицца "Сделай сам"</h2>
+			<div id='container'>
+				
+				<!-- ДД верхняя часть страницы -->
+				<div id='top'>
+					
+					<div id='pizzaView'>
+						<img src='images/Custom_Pizza_3.jpg' alt='pizzaView'></img>
+					</div>
+					
+					<div id='pizzaMainConfig'>
+						<h1>Пицца "Сделай сам"</h1>
+						<div id='dough'>
+							<div class='pizzaMainConfigLeft'>
+								<h4>Тесто</h4>
+								<h3>Американо</h3>
+							</div>
+							<div class='pizzaMainConfigRight'>
+								<div id='americano' data-dough='Американо'></div>
+								<div id='italano' data-dough='Итальяно'></div>
+								<div id='hotdog' data-dough='Хот-дог'></div>							
+							</div>
+						</div>
+						<div id='size'>
+							<div class='pizzaMainConfigLeft'>
+								<h4>Размер</h4>
+								<h3>30 см</h3>
+							</div>
+							<div class='pizzaMainConfigRight'>
+								<div id='pizza-size-large' data-size='50'></div>
+								<div id='pizza-size-mid' data-size='30'></div>
+								<div id='pizza-size-small' data-size='20'></div>							
+							</div>
+						</div>
+						<div id='sauce'>
+							<div class='pizzaMainConfigLeft'>
+								<h4>Соус</h4>
+								<h3>Гарлик</h3>
+							</div>
+							<div class='pizzaMainConfigRight'>
+								<div id='garlik' data-sauce='Гарлик'></div>
+								<div id='ranch' data-sauce='Ранч'></div>
+								<div id='bbq' data-sauce='Bbq'></div>
+								<div id='salsa' data-sauce='Сальса'></div>								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- ДД нижняя часть страницы с ингридиентами -->
+				<div id='bottom'>
+					<div id='pizzaIngredients'>
+						<h4>Ваша пицца состоит из</h4>
+						<div id="selectedIngridients">
+						</div>
+					</div>
+					<div id='allIngredients'>
+						<h4>Дополнительные начинки</h4>
+						<!-- тут все типы ингридиентов -->
+						<div id='typesOfIngredients'>
+							<div id='seaIngredients'></div>
+							<div id='meatIngredients'></div>
+							<div id='vegIngredients'></div>
+							<div id='cheeseIngredients'></div>
+							<div id='refuelIngredients'></div>
+						</div>
+						<div id='wraperIngridients'>
+							<div id='seaIngredientsAll'></div>
+							<div id='meatIngredientsAll'></div>
+							<div id='vegIngredientsAll'></div>
+							<div id='cheeseIngredientsAll'></div>
+							<div id='refuelIngredientsAll'></div>
+						</div>		
+					</div>
+					<div id='allAmounts'>		
+						<div id='reset'>
+							<p>Сбросить</p>
+						</div>	
+						<div id='addToCart'>
+							<p>В корзину</p>
+						</div>
+						<div id='amounts'>
+							<p>40 грн / 470 гр</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+ <html>

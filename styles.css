@@ -1,450 +1,451 @@
-	*{
-			padding: 0px;
-			margin: 0px;
-		}
-		html, body{		
-			background-image:url(images/repeat_bg.jpg);
-			background-position:center top;
-			background-repeat:repeat-y;
-			background-color:#2d1917;
-		}
-		
-		h1,h2,h3,h4,p{
-			font-family: Arial;
-		}
-		
-		h2{
-			color: white;
-			font-size: 22px;
-			margin: 14px;
-		}
-		
-		h1{
-			color: black;
-			font-size: 40px;
-			margin: 30px 0px 20px 5px;
-		}
-		
-		#wraper{
-			overflow: hidden;
-			min-height: 900px;
-			width:960px;
-			margin: auto auto 50px auto;
-		}
-		
-		#container{
-			overflow: hidden;
-			min-height: 900px;
-			width:960px;
-			background-color:white;
-			border-radius:20px;
-		}
-		
-		#top{
-			height: 500px;
-			width:100%;
-		}
-		
-		#bottom{
-			overflow: hidden;
-			min-height: 300px;
-			width:90%;
-			margin:auto;
-			border-top:1px solid #dedede;
-			padding-top:10px;
-		}
-		
-		#pizzaView{
-			float:left;
-			height: 480px;
-			width:50%;
-			margin: 20px -20px 0px 20px;;
-		}
-		
-		#pizzaMainConfig{
-			float:left;
-			height: 500px;
-			width:50%;
-		}
-		
-		.pizzaMainConfigLeft{
-			float:left;
-			width:40%;
-		}
-		.pizzaMainConfigRight{
-			float:left;
-			width:60%;
-		}
-		
-		#dough .pizzaMainConfigRight .cheked{
-			opacity:1;
-		}
-		
-		#sauce .pizzaMainConfigRight .cheked{
-			opacity:1;
-		}
-		
-		#pizza-size-large.cheked{
-			background-position: 50% -65px;
-		}
-		#pizza-size-mid.cheked{
-			background-position: 50% -56px;
-		}
-		#pizza-size-small.cheked{
-			background-position: 50% -47px;
-		}
+*{
+	padding: 0px;
+	margin: 0px;
+}
 
-		#dough, #size, #sauce{
-			height: 60px;
-			margin: 40px 0px 0px 0px;
-		}
+html, body{		
+	background-image:url(images/repeat_bg.jpg);
+	background-position:center top;
+	background-repeat:repeat-y;
+	background-color:#2d1917;
+}
+
+h1,h2,h3,h4,p{
+	font-family: Arial;
+}
+
+h2{
+	color: white;
+	font-size: 22px;
+	margin: 14px;
+}
+
+h1{
+	color: black;
+	font-size: 40px;
+	margin: 30px 0px 20px 5px;
+}
+
+#wraper{
+	overflow: hidden;
+	min-height: 900px;
+	width:960px;
+	margin: auto auto 50px auto;
+}
+
+#container{
+	overflow: hidden;
+	min-height: 900px;
+	width:960px;
+	background-color:white;
+	border-radius:20px;
+}
+
+#top{
+	height: 500px;
+	width:100%;
+}
+
+#bottom{
+	overflow: hidden;
+	min-height: 300px;
+	width:90%;
+	margin:auto;
+	border-top:1px solid #dedede;
+	padding-top:10px;
+}
+
+#pizzaView{
+	float:left;
+	height: 480px;
+	width:50%;
+	margin: 20px -20px 0px 20px;;
+}
+
+#pizzaMainConfig{
+	float:left;
+	height: 500px;
+	width:50%;
+}
+
+.pizzaMainConfigLeft{
+	float:left;
+	width:40%;
+}
+.pizzaMainConfigRight{
+	float:left;
+	width:60%;
+}
+
+#dough .pizzaMainConfigRight .cheked{
+	opacity:1;
+}
+
+#sauce .pizzaMainConfigRight .cheked{
+	opacity:1;
+}
+
+#pizza-size-large.cheked{
+	background-position: 50% -65px;
+}
+#pizza-size-mid.cheked{
+	background-position: 50% -56px;
+}
+#pizza-size-small.cheked{
+	background-position: 50% -47px;
+}
+
+#dough, #size, #sauce{
+	height: 60px;
+	margin: 40px 0px 0px 0px;
+}
+
+#pizzaView img{
+	position: absolute;
+	width: 430px;
+	margin: 0px 0 0 0px;
+}
+
+#pizzaView img.ingridient{
+	width: 350px;
+	margin: 32px 0 0 32px;
+}
+
+#americano{
+	float:left;
+	width: 80px;
+	height: 52px;
+	opacity:0.4;
+	background-image: url(images/item-americano.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 5px 0 0 10px;			
+}
+#italano{
+	float:left;
+	width: 80px;
+	height: 52px;
+	opacity:0.4;
+	background-image: url(images/item-italano.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 5px 0 0 10px;
+}
+#hotdog{
+	float:left;
+	width: 80px;
+	height: 52px;
+	opacity:0.4;
+	background-image: url(images/hotdog.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 5px 0 0 10px;
+}	
+#pizza-size-large{
+	float:left;
+	width: 80px;
+	height: 65px;
+	background-image: url(images/pizza-size-large.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	
+}
+#pizza-size-mid{
+	float:left;
+	width: 80px;
+	height: 56px;
+	background-image: url(images/pizza-size-mid.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 5px 0 0 10px;
+}
+#pizza-size-small{
+	float:left;
+	width: 80px;
+	height: 47px;
+	background-image: url(images/pizza-size-small.png);
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 10px 0 0 0px;
+}
+#garlik{
+	float:left;
+	width: 60px;
+	height: 60px;
+	background-image: url(images/garlik.png);
+	background-size: 60px 60px;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 0 5px 0 0px;
+	opacity:0.4;
+}
+#ranch{
+	float:left;
+	width: 60px;
+	height: 60px;
+	background-image: url(images/ranch.png);
+	background-size: 60px 60px;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 0 5px 0 0px;
+	opacity:0.4;
+}
+
+#seaIngredients:hover, #meatIngredients:hover, #vegIngredients:hover, #cheeseIngredients:hover, #refuelIngredients:hover, 
+#salsa:hover, #bbq:hover, #ranch:hover, #garlik:hover, 
+#americano:hover, #italano:hover, #hotdog:hover,
+#pizza-size-small:hover, #pizza-size-mid:hover, #pizza-size-large:hover{
+	cursor:pointer;
+}
+
+#bbq{
+	float:left;
+	width: 60px;
+	height: 60px;
+	background-image: url(images/bbq.png);
+	background-size: 60px 60px;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 0 5px 0 0px;
+	opacity:0.4;
+}
+#salsa{
+	float:left;
+	width: 60px;
+	height: 60px;
+	background-image: url(images/salsa.png);
+	background-size: 60px 60px;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+	margin: 0 5px 0 0px;
+	opacity:0.4;
+}
+
+#pizzaIngredients{
+	float:left;
+	width: 50%;
+	overflow: hidden;
+	min-height: 300px;
+	margin-top:10px;
+	border-right:1px solid #dedede;
+}
+
+#allIngredients{
+	float:left;
+	width: 45%;
+	overflow: hidden;
+	min-height: 300px;
+	margin-top:10px;			
+	margin-left: -1px;
+	padding-left:30px;
+	border-left: 1px solid #dedede;
+}
+
+.oneIngridient{
+	float:left;
+	position:relative;
+	width: 87px;
+	height: 100px;
+	margin:5px 0px 5px 10px;
+	cursor:pointer;
+
+}
+.oneIngridient p{
+	font-family: Arial;
+	font-size: 11px;
+	text-align:center;
+}
+
+.oneIngridient.left p{
+	white-space: nowrap;
+	width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.oneIngridient.left{
+	width: 98px;
+}
+
+.imgoneIngridient{
+	height: 50px;	
+	background-size: 50px 50px;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+}
+
+.weightoneIngridient{
+	float:left;
+	width: 50%;
+	color: #939393;
+}
+
+.priceoneIngridient{
+	float:left;
+	width: 50%;
+	color: #f37125;
+}
+
+#typesOfIngredients{
+	width: 100%;
+	height: 40px;
+}
+
+#seaIngredients, #meatIngredients, #vegIngredients, #cheeseIngredients, #refuelIngredients{
+	width: 40px;
+	height: 40px;
+	background-image:url(images/addit-types.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin:5px 25px 5px 12px;
+}
+
+#seaIngredients{
+	background-position: -99px 0px;
+}
+
+#meatIngredients{
+	background-position: -49px 0px;
+}
+
+#vegIngredients{
+	background-position: -247px 0px;
+}
+#cheeseIngredients{
+	background-position: -196px 0px;
+}
+#refuelIngredients{
+	background-position: -344px 0px;
+}
+
+.activeTypeOfIngredients#seaIngredients{
+	background-position: -99px -41px;
+}
+.activeTypeOfIngredients#meatIngredients{
+	background-position: -49px -41px;
+}
+.activeTypeOfIngredients#vegIngredients{
+	background-position: -247px -41px;
+}
+.activeTypeOfIngredients#cheeseIngredients{
+	background-position: -196px -41px;
+}
+.activeTypeOfIngredients#refuelIngredients{
+	background-position: -344px -41px;
+}
+
+
+.disabledType{
+	display:none;
+}
+#seaIngredientsAll{
+}
+
+#meatIngredientsAll{
+}
+
+#vegIngredientsAll{
+} 
+
+#cheeseIngredientsAll{
+} 
+
+#refuelIngredientsAll{
+}
 		
-		#pizzaView img{
-			position: absolute;
-			width: 430px;
-			margin: 0px 0 0 0px;
-		}
+#allAmounts{
+	width: 100%;
+	float: left;
+	height: 60px;
+	margin: 20px 25px 24px 12px;
+	border-top: 1px solid #dedede;
+}
 		
-		#pizzaView img.ingridient{
-			width: 350px;
-			margin: 32px 0 0 32px;
-		}
+#reset{
+	float:left;
+	margin:20px 25px 5px 12px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #777;
+}
+#save{
+	float:left;
+	margin:20px 25px 5px 12px;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #777;
+}
+#save:hover, #reset:hover{
+	cursor:pointer;
+	text-decoration: none;
+}
+#amounts{
+	float:right;
+	margin:15px 50px 5px 0px;
+	font-size: 25px;
+	font-weight:bold;
+}
 		
-		#americano{
-			float:left;
-			width: 80px;
-			height: 52px;
-			opacity:0.4;
-			background-image: url(images/item-americano.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 5px 0 0 10px;			
-		}
-		#italano{
-			float:left;
-			width: 80px;
-			height: 52px;
-			opacity:0.4;
-			background-image: url(images/item-italano.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 5px 0 0 10px;
-		}
-		#hotdog{
-			float:left;
-			width: 80px;
-			height: 52px;
-			opacity:0.4;
-			background-image: url(images/hotdog.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 5px 0 0 10px;
-		}	
-		#pizza-size-large{
-			float:left;
-			width: 80px;
-			height: 65px;
-			background-image: url(images/pizza-size-large.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			
-		}
-		#pizza-size-mid{
-			float:left;
-			width: 80px;
-			height: 56px;
-			background-image: url(images/pizza-size-mid.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 5px 0 0 10px;
-		}
-		#pizza-size-small{
-			float:left;
-			width: 80px;
-			height: 47px;
-			background-image: url(images/pizza-size-small.png);
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 10px 0 0 0px;
-		}
-		#garlik{
-			float:left;
-			width: 60px;
-			height: 60px;
-			background-image: url(images/garlik.png);
-			background-size: 60px 60px;
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 0 5px 0 0px;
-			opacity:0.4;
-		}
-		#ranch{
-			float:left;
-			width: 60px;
-			height: 60px;
-			background-image: url(images/ranch.png);
-			background-size: 60px 60px;
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 0 5px 0 0px;
-			opacity:0.4;
-		}
-		
-		#seaIngredients:hover, #meatIngredients:hover, #vegIngredients:hover, #cheeseIngredients:hover, #refuelIngredients:hover, 
-		#salsa:hover, #bbq:hover, #ranch:hover, #garlik:hover, 
-		#americano:hover, #italano:hover, #hotdog:hover,
-		#pizza-size-small:hover, #pizza-size-mid:hover, #pizza-size-large:hover{
-			cursor:pointer;
-		}
-		
-		#bbq{
-			float:left;
-			width: 60px;
-			height: 60px;
-			background-image: url(images/bbq.png);
-			background-size: 60px 60px;
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 0 5px 0 0px;
-			opacity:0.4;
-		}
-		#salsa{
-			float:left;
-			width: 60px;
-			height: 60px;
-			background-image: url(images/salsa.png);
-			background-size: 60px 60px;
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-			margin: 0 5px 0 0px;
-			opacity:0.4;
-		}
-		
-		#pizzaIngredients{
-			float:left;
-			width: 50%;
-			overflow: hidden;
-			min-height: 300px;
-			margin-top:10px;
-			border-right:1px solid #dedede;
-		}
-		
-		#allIngredients{
-			float:left;
-			width: 45%;
-			overflow: hidden;
-			min-height: 300px;
-			margin-top:10px;			
-			margin-left: -1px;
-			padding-left:30px;
-			border-left: 1px solid #dedede;
-		}
-		
-		.oneIngridient{
-			float:left;
-			position:relative;
-			width: 87px;
-			height: 100px;
-			margin:5px 0px 5px 10px;
-			cursor:pointer;
-		
-		}
-		.oneIngridient p{
-			font-family: Arial;
-			font-size: 11px;
-			text-align:center;
-		}
-		
-		.oneIngridient.left p{
-			white-space: nowrap;
-			width: 80px;
-			overflow: hidden;
-			text-overflow: ellipsis;
-		}
-		
-		.oneIngridient.left{
-			width: 98px;
-		}
-		
-		.imgoneIngridient{
-			height: 50px;	
-			background-size: 50px 50px;
-			background-repeat:no-repeat;
-			background-position: 50% 0px;
-		}
-		
-		.weightoneIngridient{
-			float:left;
-			width: 50%;
-			color: #939393;
-		}
-		
-		.priceoneIngridient{
-			float:left;
-			width: 50%;
-			color: #f37125;
-		}
-		
-		#typesOfIngredients{
-			width: 100%;
-			height: 40px;
-		}
-		
-		#seaIngredients, #meatIngredients, #vegIngredients, #cheeseIngredients, #refuelIngredients{
-			width: 40px;
-			height: 40px;
-			background-image:url(images/addit-types.png);
-			background-repeat:no-repeat;
-			float:left;
-			margin:5px 25px 5px 12px;
-		}
-		
-		#seaIngredients{
-			background-position: -99px 0px;
-		}
-		
-		#meatIngredients{
-			background-position: -49px 0px;
-		}
-		
-		#vegIngredients{
-			background-position: -247px 0px;
-		}
-		#cheeseIngredients{
-			background-position: -196px 0px;
-		}
-		#refuelIngredients{
-			background-position: -344px 0px;
-		}
-		
-		.activeTypeOfIngredients#seaIngredients{
-			background-position: -99px -41px;
-		}
-		.activeTypeOfIngredients#meatIngredients{
-			background-position: -49px -41px;
-		}
-		.activeTypeOfIngredients#vegIngredients{
-			background-position: -247px -41px;
-		}
-		.activeTypeOfIngredients#cheeseIngredients{
-			background-position: -196px -41px;
-		}
-		.activeTypeOfIngredients#refuelIngredients{
-			background-position: -344px -41px;
-		}
-		
-		
-		.disabledType{
-			display:none;
-		}
-		#seaIngredientsAll{
-		}
-		
-		#meatIngredientsAll{
-		}
-		
-		#vegIngredientsAll{
-		} 
-		
-		#cheeseIngredientsAll{
-		} 
-		
-		#refuelIngredientsAll{
-		}
-				
-		#allAmounts{
-			width: 100%;
-			float: left;
-			height: 60px;
-			margin: 20px 25px 24px 12px;
-			border-top: 1px solid #dedede;
-		}
-				
-		#reset{
-			float:left;
-			margin:20px 25px 5px 12px;
-			text-decoration: underline;
-			font-weight: bold;
-			color: #777;
-		}
-		#save{
-			float:left;
-			margin:20px 25px 5px 12px;
-			text-decoration: underline;
-			font-weight: bold;
-			color: #777;
-		}
-		#save:hover, #reset:hover{
-			cursor:pointer;
-			text-decoration: none;
-		}
-		#amounts{
-			float:right;
-			margin:15px 50px 5px 0px;
-			font-size: 25px;
-			font-weight:bold;
-		}
-				
-		#addToCart{
-			float:right;
-		    width: 180px;
-			height: 50px;
-			background-color:#f37125;
-			border-radius:10px;
-			margin:5px 25px 5px 12px;
-			color: white;
-			font-size: 25px;
-			font-weight:bold;
-			text-align: center;
-			cursor:pointer;
-		}
-		
-		#addToCart p{
-			margin: 10px 0px 0px 0px;
-		}
-		
-		.minusQuantity{
-			width: 14px;
-			height: 14px;
-			border:1px solid red;
-			border-radius:7px;
-			position:absolute;
-			top: 48px;
-			left: 79px;
-			right:0px;
-			bottom:0px;
-		}
-		
-		.minusQuantity>div{
-			width: 4px;
-			height: 2px;
-			background-color: red;
-			margin: 40% 36%;
-		}
-		
-		.amountOfPortions{
-			width: 24px;
-			height: 24px;
-			border: 2px solid white;
-			background: linear-gradient(red, #cb0517);
-			border-radius: 14px;
-			position: absolute;
-			top: 0px;
-			left: 60px;
-			right:0px;
-			bottom:0px;
-			box-shadow: 0 0 8px rgba(0,0,0,0.4);
-		}
-		
-		.amountOfPortions.none{
-			display:none;
-		}
-		
-		.amountOfPortions>div{
-			font-family: Arial;
-			color: white;
-			font-size: 12px;
-			font-weight: bold;
-			text-align: center;
-			margin: 20% auto;
-		}
+#addToCart{
+	float:right;
+	width: 180px;
+	height: 50px;
+	background-color:#f37125;
+	border-radius:10px;
+	margin:5px 25px 5px 12px;
+	color: white;
+	font-size: 25px;
+	font-weight:bold;
+	text-align: center;
+	cursor:pointer;
+}
+
+#addToCart p{
+	margin: 10px 0px 0px 0px;
+}
+
+.minusQuantity{
+	width: 14px;
+	height: 14px;
+	border:1px solid red;
+	border-radius:7px;
+	position:absolute;
+	top: 48px;
+	left: 79px;
+	right:0px;
+	bottom:0px;
+}
+
+.minusQuantity>div{
+	width: 4px;
+	height: 2px;
+	background-color: red;
+	margin: 40% 36%;
+}
+
+.amountOfPortions{
+	width: 24px;
+	height: 24px;
+	border: 2px solid white;
+	background: linear-gradient(red, #cb0517);
+	border-radius: 14px;
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	right:0px;
+	bottom:0px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+.amountOfPortions.none{
+	display:none;
+}
+
+.amountOfPortions>div{
+	font-family: Arial;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20% auto;
+}
